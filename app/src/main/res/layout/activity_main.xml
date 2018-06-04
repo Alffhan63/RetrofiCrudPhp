@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alfhanrf.cobaretrofit.MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+      <TextView
+          android:layout_width="100dp"
+          android:layout_height="match_parent"
+          android:text="@string/nim"/>
+
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/editTextNIM"
+          android:hint="@string/nim" />
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+      <TextView
+          android:layout_width="100dp"
+          android:layout_height="match_parent"
+          android:text="@string/nama"/>
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/editTextNama"
+          android:hint="@string/nama" />
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+      <TextView
+          android:layout_width="100dp"
+          android:layout_height="match_parent"
+          android:text="@string/jurusan"/>
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/editTextJurusan"
+          android:hint="@string/jurusan" />
+   </LinearLayout>
+   
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Jenis Kelamin"/>
+
+   <RadioGroup
+       android:id="@+id/radioJKbutton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+   
+   <RadioButton
+       android:id="@+id/male"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Laki-Laki"/>
+      <RadioButton
+          android:id="@+id/female"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Perempuan"/>
+
+   </RadioGroup>
+   <Button
+       android:id="@+id/buttonDaftar"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="daftar"/>
+   <Button
+       android:id="@+id/buttonLihat"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Lihat Data"/>
+
+
+
+</LinearLayout>

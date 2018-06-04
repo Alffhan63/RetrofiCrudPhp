@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CobaRetrofit</string>
+    <string name="nama">Nama</string>
+    <string name="nim">NIM</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="nama1">Nama</string>
+    <string name="nim1">NIM</string>
+    <string name="tidu1">:</string>
+    <string name="jurusan1">Jurusan</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="jenis_kelamin1">Jenis Kelamin</string>
+</resources>
